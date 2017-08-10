@@ -10,6 +10,6 @@ public class Mymd5 {
 		String des = crypt.cryptDes("192095", key); 
 		System.out.println(des);
 		
-		System.out.println(crypt.decryptDes("SnFmGYME5Ao=", key));
+		System.out.println(crypt.decryptDes("zDBOrTteflX+uVm31GQvyw==", key));
 	}
 }
