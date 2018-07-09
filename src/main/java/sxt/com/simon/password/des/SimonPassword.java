@@ -1,4 +1,4 @@
-package sxt.com.simon.password;
+package sxt.com.simon.password.des;
 
 import sxt.com.crypt.CryptUtilImpl;
 
@@ -9,9 +9,9 @@ public class SimonPassword {
 		CryptUtilImpl crypt = new CryptUtilImpl();
 //		String des = crypt.cryptDes("192089", key); 
 		System.out.println(crypt.cryptDes("192090", key));
-		System.out.println(crypt.cryptDes("c8EPCQUjwMI=", key));
+		//System.out.println(crypt.cryptDes("gveuxKm9b2Q==", key));
 		
-		System.out.println(crypt.decryptDes("SnFmGYME5Ao=", key));
+		System.out.println(crypt.decryptDes("3HDPtqdOODA=", key));
 	}
 	/**
 	 * 加密
