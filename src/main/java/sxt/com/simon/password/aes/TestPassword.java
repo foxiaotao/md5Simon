@@ -12,7 +12,7 @@ public class TestPassword {
 
     public static void main(String[] args) {
         String encriptData = "192094";
-        String decriptData = "192094";
+        String decriptData = "mpYwCt1VSp7pxrrs30J7JQ==";
 
         System.out.println("encrypt:"+ AESUtil.encryptAndBase64Encode(encriptData, aesKey));
         System.out.println("encrypt:"+ AESUtil.decryptAfterBase64Decode(decriptData, aesKey));
